@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bem-Estar Mental Através da Música</title>
+    <!-- Link para o CSS (estilo da página) -->
+    <link rel="stylesheet" href="bemestar.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Playlists</a></li>
+                <li><a href="#">Educação</a></li>
+                <li><a href="#">Comunidade</a></li>
+                <li><a href="#">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Área principal do conteúdo -->
+    <main>
+        <!-- Seção de introdução -->
+        <section class="intro">
+            <h1>Bem-Estar Mental Através da Música</h1>
+            <p>Melhore seu estado de espírito com playlists personalizadas baseadas nas suas emoções.</p>
+        </section>
+
+        <!-- Seção de escolha de estado emocional -->
+        <section class="estado-emocional">
+            <h2>Como você está se sentindo?</h2>
+            <form id="estadoEmocionalForm">
+                <label for="estado">Selecione seu estado atual:</label>
+                <select id="estado" name="estado" required>
+                    <option value="feliz">Feliz</option>
+                    <option value="ansioso">Ansioso</option>
+                    <option value="triste">Triste</option>
+                    <option value="focado">Focado</option>
+                    <option value="relaxado">Relaxado</option>
+                </select>
+                <button type="submit">Buscar Playlist</button>
+            </form>
+        </section>
+
+        <!-- Seção de recomendações de música -->
+        <section class="recomendacoes">
+            <h2>Playlists Recomendadas</h2>
+            <div id="playlists">
+                <!-- As playlists serão carregadas aqui via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Seção de feedback do usuário -->
+        <section class="feedback">
+            <h2>Como você se sentiu após ouvir?</h2>
+            <form id="feedbackForm">
+                <label for="feedback">Selecione seu humor atual:</label>
+                <select id="feedback" name="feedback" required>
+                    <option value="feliz">Feliz</option>
+                    <option value="ansioso">Ansioso</option>
+                    <option value="triste">Triste</option>
+                    <option value="focado">Focado</option>
+                    <option value="relaxado">Relaxado</option>
+                </select>
+                <button type="submit">Enviar Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Bem-Estar Mental Através da Música. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Link para o JavaScript (funcionalidade dinâmica) -->
+    <script src="bemestar js"></script>
+</body>
+</html>
